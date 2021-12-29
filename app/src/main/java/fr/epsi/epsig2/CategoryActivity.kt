@@ -3,9 +3,9 @@ package fr.epsi.epsig2
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class DetailActivity : AppCompatActivity() {
+class CategoryActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_detail)
+        setContentView(R.layout.activity_category)
     }
 }

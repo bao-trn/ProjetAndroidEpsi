@@ -1,12 +1,11 @@
-package com.example.androidproject
+package fr.epsi.epsig2
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import fr.epsi.epsig2.R
 
-class MainActivity : AppCompatActivity() {
+class Product : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_productclass)
     }
 }
