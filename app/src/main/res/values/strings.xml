@@ -6,6 +6,7 @@
     <string name="txt_student_1">Etudiant 1</string>
     <string name="txt_student_2">Etudiant 2</string>
     <string name="txt_title_infos">Infos</string>
+    <string name="txt_title_rayons">Rayons</string>
     <string name="txt_title_name">Names</string>
     <string name="txt_home_login">Login</string>
     <string name="txt_home_create">Create</string>
