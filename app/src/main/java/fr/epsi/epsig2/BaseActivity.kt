@@ -2,6 +2,7 @@ package fr.epsi.epsig2
 
 import android.content.Intent
 import android.media.Image
+import android.util.TypedValue
 import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
@@ -29,10 +30,22 @@ open class BaseActivity : AppCompatActivity() {
         startActivity(newIntent)
     }
 
+    fun openRayonInfo(){
+        val newIntent= Intent(application,CategoryActivity::class.java)
+        newIntent.putExtra("title",getString(R.string.txt_title_rayons))
+        startActivity(newIntent)
+    }
+
     fun openStudentInfo(id : Int){
         val newIntent= Intent(application,StudentInfoActivity::class.java)
         newIntent.putExtra("studentId", id)
         startActivity(newIntent)
+    }
+
+    fun setProductDetailTitle(title : String){
+        val textViewTitle = findViewById<TextView>(R.id.textViewTitle)
+        textViewTitle.text = title
+        textViewTitle.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 18F);
     }
 
 }
