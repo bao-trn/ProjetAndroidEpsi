@@ -23,10 +23,6 @@ class StudentInfoActivity : BaseActivity(){
             studentName.text = "TAO Xin"
             studentMail.text = "xin.tao@epsi.fr"
         }
-
-
-
-
     }
 }
 
