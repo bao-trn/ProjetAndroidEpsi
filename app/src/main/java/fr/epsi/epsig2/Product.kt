@@ -1,11 +1,3 @@
 package fr.epsi.epsig2
 
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
-
-class Product : AppCompatActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_productclass)
-    }
-}
+class Product (val name:String,val description:String,val picture_url:String){}
