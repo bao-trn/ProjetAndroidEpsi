@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">EpsiG2Test</string>
+    <string name="hello_world">Hello World</string>
+    <string name="txt_zone_1">Zone 1</string>
+    <string name="txt_zone_2">Zone 2</string>
+    <string name="txt_student_1">Etudiant 1</string>
+    <string name="txt_student_2">Etudiant 2</string>
+    <string name="txt_title_infos">Infos</string>
+    <string name="txt_title_name">Names</string>
+    <string name="txt_home_login">Login</string>
+    <string name="txt_home_create">Create</string>
+    <string name="txt_home_student">Students</string>
+</resources>

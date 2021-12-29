@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudentInfoActivity"
+    android:orientation="vertical">
+
+
+    <include
+        layout="@layout/layout_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:layout_weight="1">
+    </View>
+
+    <ImageView
+        android:id="@+id/studentAvatar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/bao" />
+
+    <TextView
+        android:id="@+id/studentDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Bao n'est pas une brioche"
+        android:textSize="25sp">
+    </TextView>
+    <TextView
+        android:id="@+id/studentName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Tran Bao-Anh"
+        android:textSize="25sp">
+    </TextView>
+    <TextView
+        android:id="@+id/studentMail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="baoanh.tran@epsi.fr"
+        android:textSize="25sp">
+    </TextView>
+    <TextView
+        android:id="@+id/studentGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="B3 G2"
+        android:textSize="25sp">
+    </TextView>
+    <View
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:layout_weight="1">
+    </View>
+    <TextView
+        android:id="@+id/epsiWebsite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="https://www.epsi.fr/"
+        android:autoLink="web"
+        android:textSize="20sp">
+    </TextView>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:layout_weight="1">
+    </View>
+
+
+
+
+</LinearLayout>
